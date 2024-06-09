@@ -23,7 +23,7 @@ const Intro = () => {
           </Button>
           <Button variant='secondary' asChild>
             <a
-              href='https://drive.google.com/file/d/1iXwDpEtNwEO4tTEIuQaVt20KsG_pEPyI/view?usp=drive_link'
+              href='https://drive.google.com/file/d/1AAjegcNWOmbgBFhAgHf7sHAuIXWZxgHM/view?usp=sharing'
               target='_blank'
             >
               Resume
