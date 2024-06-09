@@ -97,12 +97,8 @@ const Skills = () => {
                   </li>
                 </ul>
               </TabsContent>
-              <TabsContent value='webseta'>
-                Change your password here.
-              </TabsContent>
-              <TabsContent value='isovix'>
-                Change your password here.
-              </TabsContent>
+              <TabsContent value='webseta'>Soon to be updated.</TabsContent>
+              <TabsContent value='isovix'>Soon to be updated.</TabsContent>
             </Tabs>
           </Card>
         </div>

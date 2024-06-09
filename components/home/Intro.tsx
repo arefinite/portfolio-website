@@ -21,7 +21,14 @@ const Intro = () => {
           <Button asChild>
             <a href='#contact'>Get in touch</a>
           </Button>
-          <Button variant='secondary'>Resume</Button>
+          <Button variant='secondary' asChild>
+            <a
+              href='https://drive.google.com/file/d/1iXwDpEtNwEO4tTEIuQaVt20KsG_pEPyI/view?usp=drive_link'
+              target='_blank'
+            >
+              Resume
+            </a>
+          </Button>
         </div>
       </div>
 
