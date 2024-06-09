@@ -7,9 +7,9 @@ import {
 
 const About = () => {
   return (
-    <section className='mt-24 '>
+    <section className='mt-24'>
       <h1 className='text-center text-2xl md:text-3xl font-bold'>
-        Discover Arefin
+        <div id='discover'>Discover Arefin</div>
       </h1>
       <section className='flex gap-24 justify-between mt-16'>
         <div className='flex-1'>

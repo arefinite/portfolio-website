@@ -1,5 +1,6 @@
 import { Code2 } from 'lucide-react'
 import { ModeToggle } from '../toogle-mode'
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -15,12 +16,22 @@ const Header = () => {
         <div className='flex gap-4 items-center'>
           <nav>
             <ul className='flex space-x-8'>
-              <li>Home</li>
-              <li>Discover</li>
-              <li>Skills & Experiences</li>
-              <li>Projects</li>
-              <li>Achievement</li>
-              <li>Contact Me</li>
+             <Link href="/"> <li>Home</li></Link>
+              <a href='#discover'>
+                <li>Discover</li>
+              </a>
+              <a href='#skills'>
+                <li>Skills & Experiences</li>
+              </a>
+              <a href='#projects'>
+                <li>Projects</li>
+              </a>
+              <a href='#achievement'>
+                <li>Achievement</li>
+              </a>
+              <a href='#contact'>
+                <li>Contact Me</li>
+              </a>
             </ul>
           </nav>
           <ModeToggle />

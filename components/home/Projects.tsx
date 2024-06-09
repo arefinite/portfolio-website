@@ -6,7 +6,7 @@ const Projects = () => {
       {' '}
       <section className='mt-24 '>
         <h1 className='text-center text-2xl md:text-3xl font-bold'>
-          Projects & Codes
+          <div id='projects'>Projects & Codes</div>
         </h1>
         <section className='grid grid-cols-2 gap-24 justify-between mt-16 '>
           <div>

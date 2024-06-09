@@ -19,7 +19,7 @@ const Achievements = () => {
   return (
     <section className='mt-24 '>
       <h1 className='text-center text-2xl md:text-3xl font-bold'>
-        Achievements & Certifications
+        <div id="achievement">Achievements & Certifications</div>
       </h1>
 
       <section className='mt-16 flex justify-center'>

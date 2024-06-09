@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <section className='mt-24 '>
       <h1 className='text-center text-2xl md:text-3xl font-bold'>
-        Skills & Experiences
+        <div id='skills'>Skills & Experiences</div>
       </h1>
       <section className='flex justify-between gap-24 mt-16'>
         <div className='flex-1'>

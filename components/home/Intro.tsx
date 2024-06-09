@@ -18,7 +18,9 @@ const Intro = () => {
           flawless functionality 🚀
         </p>
         <div className='space-x-2 pt-4'>
-          <Button>Get in touch</Button>
+          <Button asChild>
+            <a href='#contact'>Get in touch</a>
+          </Button>
           <Button variant='secondary'>Resume</Button>
         </div>
       </div>
